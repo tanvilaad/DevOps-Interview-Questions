@@ -17,6 +17,13 @@ AWS Identity and Access Management (IAM) controls access to AWS services and res
 4. Multi-Factor Authentication (MFA): Adding an extra layer of security by requiring a second form of verification.
 
   Q- Explain the difference between an AWS user, group, role, and policy.
+User: An individual account with specific credentials (username and password or access keys) to access AWS resources.
+
+Group: A collection of users with the same permissions. Instead of assigning permissions to individual users, you assign them to a group.
+
+Role: A temporary identity with permissions that can be assumed by users or services. Roles are useful when granting access without sharing credentials.
+
+Policy: A set of permissions that define what actions are allowed or denied on AWS resources. Policies can be attached to users, groups, or roles.
   What are the best practices for creating and managing IAM users in AWS?
   How do you enable multi-factor authentication (MFA) for AWS IAM users?
   Describe the process of setting up cross-account access in AWS IAM.
