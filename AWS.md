@@ -68,8 +68,11 @@ Once verified, click Assign MFA to enable MFA for the user.
 The next time the user logs in, they’ll be prompted to enter an MFA code.
 
   Describe the process of setting up cross-account access in AWS IAM.
+no
   What is AWS Identity Federation, and how does it work with IAM?
+no
   Explain the differences between IAM policies and resource-based policies in AWS.
+
   How do you rotate access keys for IAM users, and why is key rotation important?
   What is AWS Cognito, and how does it relate to IAM in the context of user identity and authentication?
   Explain the concept of AWS Security Token Service (STS) and how it relates to temporary credentials in IAM.
